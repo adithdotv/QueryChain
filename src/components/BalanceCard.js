@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BalanceCard = ({ address, balance, transCount }) => {
+const BalanceCard = ({ address, balance, transCount}) => {
   return (
     <div className="flex items-center justify-center mt-10">
       <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white p-6">
@@ -11,6 +11,7 @@ const BalanceCard = ({ address, balance, transCount }) => {
         <p className="text-gray-900 text-xl font-semibold">{balance} ETH</p>
         <p className="text-gray-500 text-base">Transaction Count:</p>
         <p className="text-gray-900 text-xl font-semibold">{transCount.toString()}</p>
+        
       </div>
     </div>
   );
